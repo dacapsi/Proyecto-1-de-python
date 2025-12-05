@@ -1,0 +1,56 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["product_id", "user_id", "rating"],
+    "properties": {
+      "product_id": {
+        "bsonType": "string",
+        "description": "ID del producto"
+      },
+      "user_id": {
+        "bsonType": "string",
+        "description": "ID del usuario"
+      },
+      "rating": {
+        "bsonType": ["double", "int"],
+        "minimum": 1,
+        "maximum": 5,
+        "description": "Puntuación entre 1 y 5"
+      },
+      "review_title": {
+        "bsonType": "string"
+      },
+      "review_content": {
+        "bsonType": "string"
+      },
+      "discounted_price": {
+        "bsonType": ["double", "int"]
+      },
+      "actual_price": {
+        "bsonType": ["double", "int"]
+      },
+      "discount_percentage": {
+        "bsonType": ["double", "int"]
+      },
+      "about_product": {
+        "bsonType": "string"
+      },
+      "product_name": {
+        "bsonType": "string"
+      },
+      "category": {
+        "bsonType": "string"
+      },
+      "img_link": {
+        "bsonType": "string"
+      },
+      "product_link": {
+        "bsonType": "string"
+      },
+      "timestamp": {
+        "bsonType": "date",
+        "description": "Fecha de la review o venta"
+      }
+    }
+  }
+}

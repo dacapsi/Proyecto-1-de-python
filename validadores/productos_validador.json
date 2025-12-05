@@ -1,0 +1,57 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "product_id",
+      "product_name",
+      "category",
+      "discounted_price",
+      "actual_price"
+    ],
+    "properties": {
+      "product_id": {
+        "bsonType": "string",
+        "description": "ID único del producto"
+      },
+      "product_name": {
+        "bsonType": "string",
+        "description": "Nombre del producto"
+      },
+      "category": {
+        "bsonType": "string",
+        "description": "Categoría del producto"
+      },
+      "discounted_price": {
+        "bsonType": ["double", "int"],
+        "minimum": 0,
+        "description": "Precio con descuento"
+      },
+      "actual_price": {
+        "bsonType": ["double", "int"],
+        "minimum": 0,
+        "description": "Precio real del producto"
+      },
+      "discount_percentage": {
+        "bsonType": ["double", "int"]
+      },
+      "rating": {
+        "bsonType": ["double", "int"],
+        "minimum": 0,
+        "maximum": 5
+      },
+      "rating_count": {
+        "bsonType": ["int", "long"],
+        "minimum": 0
+      },
+      "about_product": {
+        "bsonType": "string"
+      },
+      "img_link": {
+        "bsonType": "string"
+      },
+      "product_link": {
+        "bsonType": "string"
+      }
+    }
+  }
+}
