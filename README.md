@@ -27,7 +27,6 @@ GlobalMarket/
 │
 ├── datos/
 │   ├── productos.json
-│   ├── resenas.json
 │   └── ventas.csv
 │
 ├── scripts/
@@ -139,4 +138,5 @@ Opcionalmente, se pueden crear gráficos en MongoDB Charts:
 - Carlos Martinez
 - Naleska Carrera 
 - Genesis Moya
+
 
