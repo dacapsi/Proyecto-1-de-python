@@ -1,0 +1,12 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["venta_id", "producto_id", "monto", "fecha"],
+    "properties": {
+      "venta_id": { "bsonType": "string" },
+      "producto_id": { "bsonType": "string" },
+      "monto": { "bsonType": "double" },
+      "fecha": { "bsonType": "date" }
+    }
+  }
+}

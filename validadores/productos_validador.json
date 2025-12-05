@@ -1,0 +1,22 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["producto_id", "nombre", "precio", "categoria"],
+    "properties": {
+      "producto_id": { "bsonType": "string" },
+      "nombre": { "bsonType": "string" },
+      "precio": { "bsonType": "double" },
+      "categoria": { "bsonType": "string" },
+      "reseñas": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "object",
+          "properties": {
+            "usuario": { "bsonType": "string" },
+            "puntuacion": { "bsonType": "int" }
+          }
+        }
+      }
+    }
+  }
+}
