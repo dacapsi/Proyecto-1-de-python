@@ -1,4 +1,7 @@
+Cosas que se deben tener instaladas en el dispositivo para inicializar el proyecto.
+
 pymongo
 python-dotenv
 pandas
+
 dnspython
