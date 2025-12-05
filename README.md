@@ -1,4 +1,4 @@
-# GlobalMarket Analytics & Search Engine
+# GlobalMarket Analisis & Busqueda
 
 Proyecto de Sistema de Bases de Datos Documentales (MongoDB Atlas)  
 UNEG — Ingeniería Informática  
@@ -139,3 +139,4 @@ Opcionalmente, se pueden crear gráficos en MongoDB Charts:
 - Carlos Martinez
 - Naleska Carrera 
 - Genesis Moya
+
